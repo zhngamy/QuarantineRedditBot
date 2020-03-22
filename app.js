@@ -36,7 +36,7 @@ stream.on("item", comment => {
     var value = comment.body.includes("quarantine");
     var value2 = comment.body.includes(":(");
     if (value&value2) {
-        comment.reply("We're all in this together!! Love and light.");
+        comment.reply("We're all in this together!! Love and light your way.");
 
     }
 
